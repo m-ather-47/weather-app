@@ -58,6 +58,4 @@ Open your browser and go to `http://localhost:3000`
 - **CSS Modules** - Scoped component styling
 - **OpenWeather API** - Weather data provider
 
-## License
 
-MIT
