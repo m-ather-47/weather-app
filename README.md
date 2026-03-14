@@ -8,12 +8,20 @@ A beautiful weather web application with real-time data and 5-day forecasts.
 
 ## Features
 
+
 - Current weather with OpenWeather icons
 - 5-day forecast in responsive card grid
 - Dark glassmorphism UI design
 - Color-coded temperatures
 - Metric and imperial unit support
 - Responsive layout for mobile and desktop
+
+## Screenshots
+
+<p align="center">
+	<img src="public/screenshots/image_1.png" alt="Weather App Screenshot 1" width="400" />
+	<img src="public/screenshots/image_2.png" alt="Weather App Screenshot 2" width="400" />
+</p>
 
 ## Installation
 
