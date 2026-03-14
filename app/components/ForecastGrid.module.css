@@ -1,0 +1,67 @@
+.forecastTitle {
+  margin-top: 40px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.forecastGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.forecastCard {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 20px 16px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  transition: background 0.2s;
+}
+
+.forecastCard:hover {
+  background: var(--glass-bg-hover);
+}
+
+.forecastDay {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.weatherIconSm {
+  width: 60px;
+  height: 60px;
+  margin: 4px 0;
+}
+
+.forecastCondition {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+
+.forecastTemps {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.tempHigh {
+  font-weight: 600;
+}
+
+.tempLow {
+  color: var(--text-faint);
+}
+
+.forecastDetails {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.75rem;
+  color: var(--text-faint);
+}

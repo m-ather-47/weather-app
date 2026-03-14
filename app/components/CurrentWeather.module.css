@@ -1,0 +1,81 @@
+.currentCard {
+  margin-top: 32px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  padding: 32px 36px;
+  backdrop-filter: blur(16px);
+}
+
+.currentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cityName {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.weatherDesc {
+  color: rgba(255, 255, 255, 0.55);
+  margin-top: 4px;
+  font-size: 1rem;
+}
+
+.weatherIconLg {
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.2));
+}
+
+.currentTemp {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-top: 8px;
+  letter-spacing: -3px;
+  line-height: 1;
+}
+
+.feelsLike {
+  color: rgba(255, 255, 255, 0.45);
+  margin-top: 6px;
+  font-size: 0.95rem;
+}
+
+.detailsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.detailLabel {
+  color: var(--text-faint);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detailValue {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .currentTemp {
+    font-size: 3rem;
+  }
+  .detailsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
