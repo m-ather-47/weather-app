@@ -27,7 +27,7 @@ A beautiful weather web application with real-time data and 5-day forecasts.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/weather-app.git
+git clone https://github.com/m-ather-47/weather-app.git
 cd weather-app
 
 # Install dependencies
